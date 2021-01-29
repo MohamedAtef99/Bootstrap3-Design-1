@@ -1,0 +1,34 @@
+/* style mobile and tablet*/
+@media(max-width:767px){
+
+    .navbar-inverse .navbar-nav>li>a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .subscribe .form-control{
+        margin: 10px auto;
+        width: 400px;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse,
+     .navbar-fixed-top .navbar-collapse{
+        max-height: none;
+    }
+
+    .footer{
+        text-align: center;
+    }
+}
+
+
+/* style small screen*/
+@media(min-width:768)and (max-width:991px){
+   
+}
+
+
+/* style large screen*/
+@media(min-width:1200){
+
+}

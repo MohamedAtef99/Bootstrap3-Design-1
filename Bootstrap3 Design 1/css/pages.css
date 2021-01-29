@@ -1,0 +1,82 @@
+/* Start section about*/
+.breadcrumb-holder{
+    background: #F5F5F5;
+}
+.breadcrumb{
+    margin: 10px;
+    padding: 10px;
+}
+.about{
+    padding: 50px 0;
+}
+.about h1{
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 40px;
+}
+
+.about hr{
+    width: 70%;
+}
+
+.about-features{
+    padding: 0 0 70px;
+}
+
+.about-features h3{
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.about-features p{
+    margin-bottom: 40px;
+}
+
+.about-ceo{
+  background: #EEE;
+  padding: 40px 0 0;
+}
+.about-ceo h3{
+    line-height: 1.9;
+}
+
+.about-ceo  .btn-primary{
+    background-color: #333;
+    border-color: #333;
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* End section about*/
+
+
+/*Star section FAQ*/
+.FAQ-introduction{
+    padding: 40px 0;
+}
+.FAQ-introduction h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+.FAQ-introduction ~ hr{
+    width: 70%;
+}
+
+/* End section FAQ*/
+.faq-question .panel-heading{
+    padding: 20px 15px;
+}
+ .faq-question .panel-heading a::after{
+    content: "\e114";
+    float: right;
+    color: #444444;
+    font-family:'Glyphicons Halflings';
+}
+
+.faq-question .panel-heading a.collapsed::after{
+    content: "\e080";
+    float: right;
+    color: #444444;
+    font-family:'Glyphicons Halflings';
+}
